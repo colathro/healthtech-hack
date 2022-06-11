@@ -1,9 +1,15 @@
+import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import LandingPage from "./components/LandingPage/LandingPage";
+import Questionnaire from "./components/Questionnaire/Questionnaire";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Hello Hackers!</header>
+    <div>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/questionnaire" element={<Questionnaire />} />
+      </Routes>
     </div>
   );
 }
