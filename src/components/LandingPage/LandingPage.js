@@ -17,12 +17,6 @@ function LandingPage() {
               Tired of struggling alone, not sure where to go?
             </h2>
             <p className="hero-txt">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris added-features
-              nisi ut aliquip ex ea commodo consequat.
-
-              nisi ut aliquip ex ea commodo consequat. main
               Millions of people stuggle daily with mental health disorders, and
               lack the resources to easily find where to start. <br /> <br />
               Take our short questionnaire to get some initial direction and
@@ -33,14 +27,8 @@ function LandingPage() {
             </button>
           </div>
         </div>
-        <div className="hero-right-container"> added-features
         <div className="hero-right-container">
-          <img
-            className="imgContainer"
-            src="./humans/twonewhumans.svg"
-            alt=""
-          />
-          <img className="imgContainer" src="humans/twohumans.svg" alt="" /> main
+          <img className="imgContainer" src="humans/twohumans.svg" alt="" />
         </div>
       </div>
     </div>
