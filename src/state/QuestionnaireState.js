@@ -41,6 +41,8 @@ class QuestionnaireState {
 
     return Math.ceil((totalAnswered / totalQuestions) * 100);
   }
+
+  calculateResults() {}
 }
 
 let questionnaireState = new QuestionnaireState();
