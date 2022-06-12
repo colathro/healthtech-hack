@@ -1,0 +1,22 @@
+.question {
+  width: 50%;
+  padding: 16px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.question-txt {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.question-button {
+  padding: 8px 16px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.person {
+}

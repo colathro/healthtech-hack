@@ -1,11 +1,16 @@
-import { Link } from "react-router-dom";
 import ProgressBar from "../ProgressBar/ProgressBar";
+import { useNavigate } from "react-router-dom";
 import "./Questionnaire.css";
 import { observer } from "mobx-react";
 import questionnaireState from "../../state/QuestionnaireState";
 import Question from "../Question/Question";
 
 const Questionnaire = observer(() => {
+  let navigate = useNavigate();
+
+  const results = () => {
+    navigate("/results");
+  };
   return (
     <div className="questionnaire-page">
       <ProgressBar
@@ -13,7 +18,6 @@ const Questionnaire = observer(() => {
         completed={questionnaireState.calculateProgress()}
       />
       <div className="questionnaire-page-header">
-        Questionnaire goes here!
         {questionnaireState.questions.map((question) => {
           let questionsToRender = [];
 
@@ -44,9 +48,10 @@ const Questionnaire = observer(() => {
 
           return questionsToRender;
         })}
-        <Link to="/">Go back</Link>
-        <Link to="/faq">FAQ</Link>
       </div>
+      <button className="results-button" onClick={results}>
+        Results >
+      </button>
     </div>
   );
 });

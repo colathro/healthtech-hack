@@ -33,16 +33,7 @@ function LandingPage() {
           </div>
         </div>
         <div className="hero-right-container">
-          {" "}
-          added-features
-          <div className="hero-right-container">
-            <img
-              className="imgContainer"
-              src="./humans/twonewhumans.svg"
-              alt=""
-            />
-            <img className="imgContainer" src="humans/twohumans.svg" alt="" />
-          </div>
+          <img className="imgContainer" src="humans/twohumans.svg" alt="" />
         </div>
       </div>
     </div>
