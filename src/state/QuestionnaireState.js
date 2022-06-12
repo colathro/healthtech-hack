@@ -31,6 +31,7 @@ class QuestionnaireState {
   calculateProgress() {
     let totalQuestions = 0;
     let totalAnswered = 0;
+
     this.questions.forEach((question) => {
       totalQuestions += 1;
       if (question.answer !== null) {
