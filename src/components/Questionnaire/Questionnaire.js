@@ -32,6 +32,7 @@ const Questionnaire = observer(() => {
           return questionsToRender;
         })}
         <Link to="/">Go back</Link>
+        <Link to="/faq">FAQ</Link>
       </div>
     </div>
   );
