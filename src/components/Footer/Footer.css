@@ -10,13 +10,6 @@
   margin-bottom: 4px;
 }
 
-.navbar-title {
-  cursor: pointer;
-  transition: 0.7s;
-  font-family: "Caladea", serif;
-  color: #063d8c;
-}
-
 .navbar-title:hover {
   font-weight: bold;
 }

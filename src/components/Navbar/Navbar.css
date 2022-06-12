@@ -10,7 +10,9 @@
   cursor: pointer;
   transition: 0.7s;
   font-family: "Inter", sans-serif;
-  color: #063d8c;
+  color: lightblue;
+  text-shadow: 5px blue;
+  font-size: 25px;
 }
 
 .navbar-title:hover {
