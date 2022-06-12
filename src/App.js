@@ -5,7 +5,7 @@ import Questionnaire from "./components/Questionnaire/Questionnaire";
 import FAQ from "./components/FAQ/FAQ";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-
+import Resultpage from "./components/ResultsPage/Resultpage";
 function App() {
   return (
     <div className="page">
@@ -14,6 +14,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/questionnaire" element={<Questionnaire />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/results" element={<Resultpage />} />
       </Routes>
       <Footer></Footer>
     </div>

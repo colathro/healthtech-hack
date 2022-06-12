@@ -3,12 +3,13 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px 4em;
+  background-color: white;
 }
 
 .navbar-title {
   cursor: pointer;
   transition: 0.7s;
-  font-family: "Caladea", serif;
+  font-family: "Inter", sans-serif;
   color: #063d8c;
 }
 
@@ -24,6 +25,7 @@
   cursor: pointer;
   margin-right: 1em;
   transition: 0.7s;
+  font-family: "Inter", sans-serif;
 }
 
 .menu-item:hover {

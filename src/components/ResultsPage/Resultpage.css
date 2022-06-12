@@ -1,0 +1,80 @@
+.results {
+  background-size: cover;
+  background: radial-gradient(
+      circle at 100% 50%,
+      transparent 20%,
+      rgba(246, 240, 240, 0.325) 21%,
+      rgba(232, 232, 232, 0.33) 34%,
+      transparent 35%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 0% 50%,
+        transparent 20%,
+        rgba(255, 252, 252, 0.727) 21%,
+        rgba(255, 255, 255, 0.3) 34%,
+        transparent 35%,
+        transparent
+      )
+      0 -50px;
+  background-color: white;
+  background-size: 75px 100px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 100vh;
+}
+.result-txt {
+  font-family: "Inter", sans-serif;
+}
+.results-page-container {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  border: dotted #32a1ce;
+  height: 80vh;
+  width: 50%;
+  flex-direction: column;
+  background-color: #a8d0e6;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
