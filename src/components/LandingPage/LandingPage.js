@@ -13,16 +13,23 @@ function LandingPage() {
             <p className="hero-txt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. 
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris added-features
+              nisi ut aliquip ex ea commodo consequat.
+
+              nisi ut aliquip ex ea commodo consequat. main
             </p>
             <button>
               <Link to="/questionnaire">Start Questionnaire</Link>
             </button>
           </div>
         </div>
-        <div className="hero-right-container">
-          <img className="imgContainer" src="humans/twohumans.svg" alt="" />
+        <div className="hero-right-container"> added-features
+          <img
+            className="imgContainer"
+            src="./humans/twonewhumans.svg"
+            alt=""
+          />
+          <img className="imgContainer" src="humans/twohumans.svg" alt="" /> main
         </div>
       </div>
     </div>
