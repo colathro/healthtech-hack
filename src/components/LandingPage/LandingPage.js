@@ -28,7 +28,11 @@ function LandingPage() {
           </div>
         </div>
         <div className="hero-right-container">
-          <img className="imgContainer" src="humans/twohumans.svg" alt="" />
+          <img
+            className="imgContainer"
+            src="./humans/twonewhumans.svg"
+            alt=""
+          />
         </div>
       </div>
     </div>
