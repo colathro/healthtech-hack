@@ -15,12 +15,12 @@ function Footer() {
     <div className="footer-container">
       <div className="footer-inner">
         <div className="footer-menu">
-          <a className="footer-menu-item" onClick={privacy}>
+          <div className="footer-menu-item" onClick={privacy}>
             Privacy Policy
-          </a>
-          <a className="footer-menu-item" onClick={cookie}>
+          </div>
+          <div className="footer-menu-item" onClick={cookie}>
             Cookie Policy
-          </a>
+          </div>
         </div>
       </div>
     </div>

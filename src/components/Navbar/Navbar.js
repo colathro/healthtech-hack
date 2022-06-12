@@ -23,12 +23,12 @@ function Navbar() {
         </h1>
       </div>
       <div className="menu">
-        <a className="menu-item" onClick={resources}>
+        <div className="menu-item" onClick={resources}>
           Resources
-        </a>
-        <a className="menu-item" onClick={faq}>
+        </div>
+        <div className="menu-item" onClick={faq}>
           FAQ
-        </a>
+        </div>
       </div>
     </div>
   );

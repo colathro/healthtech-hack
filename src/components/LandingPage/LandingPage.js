@@ -22,9 +22,9 @@ function LandingPage() {
               Take our short questionnaire to get some initial direction and
               resources to start your treatment journey.
             </p>
-            <a className="hero-button" onClick={questionnaire}>
+            <button className="hero-button" onClick={questionnaire}>
               Start Questionnaire >
-            </a>
+            </button>
           </div>
         </div>
         <div className="hero-right-container">

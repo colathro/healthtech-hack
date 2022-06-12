@@ -28,6 +28,7 @@
   text-decoration: none;
   cursor: pointer;
   margin-left: 8em;
+  border: none;
 }
 
 .hero-left-container {
