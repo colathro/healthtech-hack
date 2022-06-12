@@ -1,0 +1,38 @@
+.footer-container {
+  margin-top: auto;
+}
+
+.footer-inner {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.navbar-title {
+  cursor: pointer;
+  transition: 0.7s;
+  font-family: "Caladea", serif;
+  color: #063d8c;
+}
+
+.navbar-title:hover {
+  font-weight: bold;
+}
+
+.footer-menu {
+  display: flex;
+}
+
+.footer-menu-item {
+  color: gray;
+  font-size: 0.7em;
+  cursor: pointer;
+  margin-right: 2em;
+  transition: 0.7s;
+}
+
+.footer-menu-item:hover {
+  font-weight: bold;
+}

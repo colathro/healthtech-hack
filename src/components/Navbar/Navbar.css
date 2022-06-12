@@ -1,0 +1,31 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 4em;
+}
+
+.navbar-title {
+  cursor: pointer;
+  transition: 0.7s;
+  font-family: "Caladea", serif;
+  color: #063d8c;
+}
+
+.navbar-title:hover {
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  cursor: pointer;
+  margin-right: 1em;
+  transition: 0.7s;
+}
+
+.menu-item:hover {
+  font-weight: bold;
+}
