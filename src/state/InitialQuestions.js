@@ -39,7 +39,7 @@ const InitialQuestions = [
   },
   {
     type: "yesno",
-    text: "How much have you had strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?",
+    text: "How often have you been triggered by an event that reminded you of a previous experience, causing emotional or physical distress (for example, increased heart rate, shortness of breath, hostility, anxiety)?",
     followUp: true,
     followUpQuestions: [
       {
@@ -116,6 +116,36 @@ const InitialQuestions = [
         ],
         followUpSignal: true,
         answer: null,
+      },
+    ],
+    followUpSignal: true,
+    answer: null,
+  },
+  {
+    type: "yesno",
+    text: "Do you frequently experience sudden irritability, fits of crying, or laughter?",
+    followUp: true,
+    followUpQuestions: [
+      {
+        type: "frequency",
+        text: "How often do you have these urges?",
+        answer: null,
+      },
+    ],
+    followUpSignal: true,
+    answer: null,
+  },
+  {
+    type: "yesno",
+    text: "Are there any unhealthy stressing factors in your household?",
+    followUp: true,
+    followUpQuestions: [
+      {
+        type: "yesno",
+        text: "Are you currently, or have you recently experienced both mental or emotional abuse?",
+        additionalHelp:
+          "If you are in immediate danger, call 9-1-1. For anonymous, confidential help, 24/7, please call the National Domestic Violence Hotline at 1-800-799-7233. If you are a minor experiencing abuse, please call 1-800-422-4453",
+        followUp: false,
         answer: null,
       },
     ],
