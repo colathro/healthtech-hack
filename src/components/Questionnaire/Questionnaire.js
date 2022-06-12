@@ -5,8 +5,9 @@ function Questionnaire() {
   return (
     <div className="questionnaire-page">
       <div className="questionnaire-page-header">
-        Questionnaire goes here!
+      <h1>Questionnaire goes here!</h1>
         <Link to="/">Go back</Link>
+        <Link to="/faq">FAQ</Link>
       </div>
     </div>
   );
