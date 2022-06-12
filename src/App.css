@@ -1,13 +1,11 @@
-/*
-background-color/ ligh blue: #A8D0E6;
-
- */
-
-body {
-  background-color: #e9e9e6;
-  font-family: 'Inter', sans-serif;
-
+.page {
+  margin: 0px 4px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
-.page{
-  margin: 4px;
+
+.route-container {
+  display: flex;
+  flex: 1;
 }
