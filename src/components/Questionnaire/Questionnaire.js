@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ProgressBar from "../ProgressBar/ProgressBar";
 import "./Questionnaire.css";
 import { observer } from "mobx-react";
 import questionnaireState from "../../state/QuestionnaireState";
@@ -7,6 +8,7 @@ import Question from "../Question/Question";
 const Questionnaire = observer(() => {
   return (
     <div className="questionnaire-page">
+      <ProgressBar bgcolor="green" completed={50}/>
       <div className="questionnaire-page-header">
         Questionnaire goes here!
         {questionnaireState.questions.map((question) => {
