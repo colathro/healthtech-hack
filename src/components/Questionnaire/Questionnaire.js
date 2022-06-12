@@ -8,7 +8,10 @@ import Question from "../Question/Question";
 const Questionnaire = observer(() => {
   return (
     <div className="questionnaire-page">
-      <ProgressBar bgcolor="green" completed={50}/>
+      <ProgressBar
+        bgcolor="green"
+        completed={questionnaireState.calculateProgress()}
+      />
       <div className="questionnaire-page-header">
         Questionnaire goes here!
         {questionnaireState.questions.map((question) => {
