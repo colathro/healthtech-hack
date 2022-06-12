@@ -27,6 +27,19 @@ class QuestionnaireState {
     const questionsString = JSON.stringify(this.questions);
     localStorage.setItem(PERSISTED_QUESTIONS, questionsString);
   }
+
+  calculateProgress() {
+    let totalQuestions = 0;
+    let totalAnswered = 0;
+    this.questions.forEach((question) => {
+      totalQuestions += 1;
+      if (question.answer !== null) {
+        totalAnswered += 1;
+      }
+    });
+
+    return Math.ceil((totalAnswered / totalQuestions) * 100);
+  }
 }
 
 let questionnaireState = new QuestionnaireState();
