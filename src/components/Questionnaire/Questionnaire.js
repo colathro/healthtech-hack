@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import "./Questionnaire.css";
 import { observer } from "mobx-react";
@@ -13,7 +12,6 @@ const Questionnaire = observer(() => {
         completed={questionnaireState.calculateProgress()}
       />
       <div className="questionnaire-page-header">
-        Questionnaire goes here!
         {questionnaireState.questions.map((question) => {
           let questionsToRender = [];
 
@@ -44,8 +42,6 @@ const Questionnaire = observer(() => {
 
           return questionsToRender;
         })}
-        <Link to="/">Go back</Link>
-        <Link to="/faq">FAQ</Link>
       </div>
     </div>
   );
