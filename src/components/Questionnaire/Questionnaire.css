@@ -9,3 +9,27 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.progress {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+.progress-bar {
+  transition: 1s;
+}
+
+.results-button {
+  width: 250px;
+  padding: 16px 8px;
+  border-radius: 6px;
+  margin: 3em;
+  background-color: #063d8c;
+  color: white;
+  font-variant: normal;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
