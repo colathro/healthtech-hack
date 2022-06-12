@@ -29,6 +29,16 @@ const Questionnaire = observer(() => {
                   question={subQuestion}
                 ></Question>
               );
+              if (subQuestion.followUpSignal === subQuestion.answer) {
+                subQuestion.followUpQuestions.forEach((subSubQuestion) => {
+                  questionsToRender.push(
+                    <Question
+                      key={subSubQuestion.text}
+                      question={subSubQuestion}
+                    ></Question>
+                  );
+                });
+              }
             });
           }
 
