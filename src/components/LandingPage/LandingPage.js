@@ -14,7 +14,7 @@ function LandingPage() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. 
+              nisi ut aliquip ex ea commodo consequat.
             </p>
             <button>
               <Link to="/questionnaire">Start Questionnaire</Link>
@@ -22,7 +22,11 @@ function LandingPage() {
           </div>
         </div>
         <div className="hero-right-container">
-          <img className="imgContainer" src="humans/twohumans.svg" alt="" />
+          <img
+            className="imgContainer"
+            src="./humans/twonewhumans.svg"
+            alt=""
+          />
         </div>
       </div>
     </div>
